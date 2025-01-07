@@ -69,5 +69,5 @@ jobs:
                   # 具体目录以自己实际情况为准
                   publish_dir: source
                   external_repository: EmccK/emcck.github.io
-                  publish_branch: master
+                  publish_branch: main
                   commit_message: ${{ github.event.head_commit.message }}
